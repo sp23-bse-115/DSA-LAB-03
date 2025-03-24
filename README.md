@@ -13,3 +13,7 @@ Attach observers (attach(Observer observer))
 Notify all observers whenever the state changes (notifyAllObservers()) </li>
 
 
+<h1> Abstract Class </h1>
+<li>Defines a blueprint for all observers</li>
+<li>Each observer must implement the update() method</li>
+<li></li>Each observer has a reference to the Subject it is observing</li>
