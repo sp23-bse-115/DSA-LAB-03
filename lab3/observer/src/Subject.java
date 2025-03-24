@@ -23,22 +23,12 @@ public class Subject {
    public void detach(Observer observer) {
     observers.remove(observer);  
    }
-   public void setMessage(String message) {
-    this.message = message;
-    notifyListeners();
-   }
-
-   public void notifyAllObservers() {
-      for (Observer observer : observers)
- 
+   
+   public void notifyAllObservers(){
+      for (Observer observer : observers) {
          observer.update();
-    }
-      private void notifyListeners() {
-        for (SMSSupportListener listener : listeners) 
-            listener.update(message);
-    
-    } 	
+      }
+   } 	
 }
 
 }
-
