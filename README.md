@@ -29,3 +29,13 @@ Notify all observers whenever the state changes (notifyAllObservers()) </li>
 <li>Attaches three observers (HexaObserver, OctalObserver, and BinaryObserver)</li>
 <li>Updates the state of the Subject twice and observes the output.</li>
 
+
+                  <h3>Create a New Package</h3>
+<p>observer.eventsmanagement
+Inside your Java project, create a new package</p>
+
+                  <h3>SMSSupportListener</h3>
+<li>Check the SMS length when notified</li>
+<li>Give a warning if the SMS exceeds 160 characters </li>
+<li>Send the SMS if it's valid</li>
+          
